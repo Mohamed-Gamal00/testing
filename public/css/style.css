@@ -4,6 +4,7 @@
     --secondary: #000000;
     --light: #f0f0f0;
     --dark: #1D1D27;
+    --white: #ffffff;
 }
 
 *
@@ -140,7 +141,6 @@ h6,
         max-height: 45px;
     }
 }
-
 @media (min-width: 992px) {
     .navbar-light {
         position: absolute;
@@ -447,7 +447,7 @@ h6,
     justify-content: center;
     background: url(../img/icon-shape-white.png) center center no-repeat;
     border: none;
-    transition: .5s;
+    transition: 0.8s;
     opacity: 0;
     z-index: 2;
 }

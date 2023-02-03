@@ -68,17 +68,36 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.sticky-top.navbar-light .navbar-brand h1 {
+  color: var(--white);
+}
 nav {
   padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #f7f7f7;
-
-    &.router-link-exact-active {
-      color: #000000;
-      border-bottom: 3px solid rgb(0, 0, 0);
-    }
+}
+nav a {
+  font-weight: bold;
+  color: #f7f7f7;
+}
+.router-link-exact-active {
+  color: #000000;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: #2124b1;
+    color: white;
+  }
+  .navbar-brand h1 {
+    color: var(--white);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar {
+    background-color: #2124b1;
+    color: white;
+  }
+  .navbar-brand h1 {
+    color: var(--white);
   }
 }
 </style>

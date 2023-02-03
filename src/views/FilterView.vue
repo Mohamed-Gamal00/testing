@@ -175,7 +175,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 /************************************scrollbar**********************************/
 .graphics ::-webkit-scrollbar {
   height: 5px;
