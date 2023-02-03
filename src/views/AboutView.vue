@@ -1,5 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home">
+    <NavbarCom />
+    <AboutCom />
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import NavbarCom from "@/components/navbar/NavbarCom.vue";
+import AboutCom from "@/components/about/AboutCom.vue";
+
+export default {
+  name: "AboutView",
+  components: {
+    NavbarCom,
+    AboutCom,
+  },
+};
+</script>
